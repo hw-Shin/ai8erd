@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T06:43:09.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="n6Cimn-WAbDOCqUFcJh3" version="21.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-24T06:53:43.347Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8tNkgATVfcv5EukFiFy6" version="21.6.5" type="github" pages="2">
   <diagram name="페이지-1" id="Saes9_DNgsbYgp-xldzN">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2kzLQqCbR6kSTALaoGFX-2" value="지 역" style="whiteSpace=wrap;html=1;align=center;fontSize=17;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="370" y="740" width="100" height="40" as="geometry" />
+          <mxGeometry x="364" y="740" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2kzLQqCbR6kSTALaoGFX-3" value="지역명" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="230" y="770" width="90" height="40" as="geometry" />
@@ -268,15 +268,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7f4viEbo80dUKyA84RR8-42" value="고객" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="220" width="160" height="170" as="geometry">
+          <mxGeometry x="360" y="310" width="160" height="140" as="geometry">
             <mxRectangle x="210" y="300" width="70" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7f4viEbo80dUKyA84RR8-43" value="- 고객번호(PK)&lt;br&gt;- 고객명&lt;br&gt;- 전화번호&lt;br&gt;- 이메일&lt;br&gt;- 주소&lt;br&gt;- 지역&lt;br&gt;- 가입일&lt;br&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="7f4viEbo80dUKyA84RR8-42">
-          <mxGeometry y="30" width="160" height="140" as="geometry" />
+        <mxCell id="7f4viEbo80dUKyA84RR8-43" value="- &lt;b&gt;고객번호(PK)&lt;/b&gt;&lt;br&gt;- 고객명&lt;br&gt;- 전화번호&lt;br&gt;- 이메일&lt;br&gt;- 주소&lt;br&gt;- 가입일&lt;br&gt;- &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;지역코드(FK)&lt;/font&gt;&lt;/b&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="7f4viEbo80dUKyA84RR8-42">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="6FEiOtSgtrEUmH5me6aa-1" value="지 역" style="whiteSpace=wrap;html=1;align=center;fontSize=17;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="190" y="480" width="100" height="40" as="geometry" />
+          <mxGeometry x="200" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6FEiOtSgtrEUmH5me6aa-2" value="지역명" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="50" y="510" width="90" height="40" as="geometry" />
@@ -297,10 +297,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6FEiOtSgtrEUmH5me6aa-6" value="지역" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="460" width="160" height="80" as="geometry" />
+          <mxGeometry x="635" y="310" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="6FEiOtSgtrEUmH5me6aa-7" value="- 지역코드(PK)&lt;br&gt;- 지역명" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="6FEiOtSgtrEUmH5me6aa-6">
-          <mxGeometry y="30" width="160" height="50" as="geometry" />
+        <mxCell id="6FEiOtSgtrEUmH5me6aa-7" value="- &lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;지역코드(PK)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;- 지역명" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="6FEiOtSgtrEUmH5me6aa-6">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vbB5cmVu2LfnaFFi7pPq-1" value="관리" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="190" y="323" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vbB5cmVu2LfnaFFi7pPq-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vbB5cmVu2LfnaFFi7pPq-1" target="7f4viEbo80dUKyA84RR8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166" y="278" as="sourcePoint" />
+            <mxPoint x="246" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbB5cmVu2LfnaFFi7pPq-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="vbB5cmVu2LfnaFFi7pPq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="480" as="sourcePoint" />
+            <mxPoint x="216" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vbB5cmVu2LfnaFFi7pPq-4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6FEiOtSgtrEUmH5me6aa-7" target="7f4viEbo80dUKyA84RR8-43">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="385" y="530" as="sourcePoint" />
+            <mxPoint x="485" y="430" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
