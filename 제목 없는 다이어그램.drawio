@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T08:56:15.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="wfuk0WV5fZ_NtqiDK0LS" version="21.6.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-24T07:47:13.046Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Whale/3.22.205.18 Safari/537.36" etag="fSQYDIURlITmF_KjMzrB" version="21.6.5" type="github" pages="5">
   <diagram name="페이지-1" id="Saes9_DNgsbYgp-xldzN">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -206,7 +206,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IwRZ0XrJ4W4bi3zFIx8j" name="페이지-2">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -690,47 +690,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tCz9MhtUFqe90n0l9-gm" name="페이지-4">
-    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JhOHEko_hUhhPL97brj6-1" value="학과" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-1" value="학과" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="80" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-2" value="- &lt;b&gt;학과코드(PK)&lt;/b&gt;&lt;br&gt;- 학과명" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="JhOHEko_hUhhPL97brj6-1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-2" value="- &lt;b&gt;학과코드(PK)&lt;/b&gt;&lt;br&gt;- 학과명" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="JhOHEko_hUhhPL97brj6-1" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-3" value="교수" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-3" value="교수" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="80" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-4" value="- &lt;b&gt;교수코드(PK)&lt;/b&gt;&lt;br&gt;- 교수명&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;학과코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="JhOHEko_hUhhPL97brj6-3">
+        <mxCell id="JhOHEko_hUhhPL97brj6-4" value="- &lt;b&gt;교수코드(PK)&lt;/b&gt;&lt;br&gt;- 교수명&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;학과코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="JhOHEko_hUhhPL97brj6-3" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-5" value="학생" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-5" value="학생" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="320" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-6" value="- &lt;b&gt;학번(PK)&lt;/b&gt;&lt;br&gt;- 키&lt;br&gt;- 이름&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;학과코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="JhOHEko_hUhhPL97brj6-5">
+        <mxCell id="JhOHEko_hUhhPL97brj6-6" value="- &lt;b&gt;학번(PK)&lt;/b&gt;&lt;br&gt;- 키&lt;br&gt;- 이름&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;학과코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="JhOHEko_hUhhPL97brj6-5" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-7" value="개설과목" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-7" value="개설과목" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="320" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-8" value="- &lt;b&gt;과목코드(PK)&lt;/b&gt;&lt;br&gt;- 과목명&lt;br&gt;- 시작일&lt;br&gt;- 종료일&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;교수코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="JhOHEko_hUhhPL97brj6-7">
+        <mxCell id="JhOHEko_hUhhPL97brj6-8" value="- &lt;b&gt;과목코드(PK)&lt;/b&gt;&lt;br&gt;- 과목명&lt;br&gt;- 시작일&lt;br&gt;- 종료일&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;교수코드(FK)&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="JhOHEko_hUhhPL97brj6-7" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=-0.012;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.988;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="JhOHEko_hUhhPL97brj6-4" source="JhOHEko_hUhhPL97brj6-2">
+        <mxCell id="JhOHEko_hUhhPL97brj6-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=-0.012;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.988;exitY=0.433;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="JhOHEko_hUhhPL97brj6-2" target="JhOHEko_hUhhPL97brj6-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="270" y="139" as="sourcePoint" />
             <mxPoint x="450" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-10" value="수강" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JhOHEko_hUhhPL97brj6-10" value="수강" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="440" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="JhOHEko_hUhhPL97brj6-11" value="- &lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;수강신청번호(AK)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;- 수강신청일&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;학번(FK, PK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;과목코드(FK, PK)&lt;/b&gt;&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="JhOHEko_hUhhPL97brj6-10">
+        <mxCell id="JhOHEko_hUhhPL97brj6-11" value="- &lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;수강신청번호(AK)&lt;/font&gt;&lt;/b&gt;&lt;br&gt;- 수강신청일&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;학번(FK, PK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;- &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;과목코드(FK, PK)&lt;/b&gt;&lt;/font&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="JhOHEko_hUhhPL97brj6-10" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="Np36-KvKjZB5NWQvEt2--2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JhOHEko_hUhhPL97brj6-2" target="JhOHEko_hUhhPL97brj6-5">
+        <mxCell id="Np36-KvKjZB5NWQvEt2--2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JhOHEko_hUhhPL97brj6-2" target="JhOHEko_hUhhPL97brj6-5" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="100" y="110" as="sourcePoint" />
             <mxPoint x="280" y="220" as="targetPoint" />
@@ -739,23 +739,61 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Np36-KvKjZB5NWQvEt2--4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JhOHEko_hUhhPL97brj6-4" target="JhOHEko_hUhhPL97brj6-7">
+        <mxCell id="Np36-KvKjZB5NWQvEt2--4" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="JhOHEko_hUhhPL97brj6-4" target="JhOHEko_hUhhPL97brj6-7" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="600" y="190" as="sourcePoint" />
             <mxPoint x="460" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Np36-KvKjZB5NWQvEt2--5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JhOHEko_hUhhPL97brj6-6" target="JhOHEko_hUhhPL97brj6-11">
+        <mxCell id="Np36-KvKjZB5NWQvEt2--5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JhOHEko_hUhhPL97brj6-6" target="JhOHEko_hUhhPL97brj6-11" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="328" y="159" as="sourcePoint" />
             <mxPoint x="528" y="159" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Np36-KvKjZB5NWQvEt2--6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JhOHEko_hUhhPL97brj6-8" target="JhOHEko_hUhhPL97brj6-11">
+        <mxCell id="Np36-KvKjZB5NWQvEt2--6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="JhOHEko_hUhhPL97brj6-8" target="JhOHEko_hUhhPL97brj6-11" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="290" y="445" as="sourcePoint" />
             <mxPoint x="350" y="365" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5LYEKBuJI2QITO2hfjKf" name="페이지-5">
+    <mxGraphModel dx="728" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nAuwODIdbPdZOzsbgTLP-1" value="상품" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="nAuwODIdbPdZOzsbgTLP-2" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;-&amp;nbsp;상품ID(PK)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;- 상품이름&lt;br&gt;- 상품가격&lt;br&gt;- 상품이미지&lt;br&gt;- 상품브랜드&lt;br&gt;- 상품설명&lt;br&gt;- 구매횟수&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8289&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8270&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="nAuwODIdbPdZOzsbgTLP-1">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-2" value="회원정보" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-3" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;- 회원ID(PK)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;- 비밀번호&lt;br&gt;- 닉네임&lt;br&gt;- 이름&lt;br&gt;-&amp;nbsp;이메일&lt;br&gt;- 이름&lt;br&gt;- 성별&lt;br&gt;- 생년월일&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8270&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9AbD27m7tWD324XAIjVa-2">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-4" value="게시글" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-5" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;- 게시글ID(PK)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;- 내용&lt;br&gt;- 사진&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;- 게시자ID(FK)&lt;br&gt;&lt;/b&gt;&lt;/font&gt;- 게시날짜&amp;nbsp;&lt;br&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9AbD27m7tWD324XAIjVa-4">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-6" value="좋아요" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="217" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-7" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;- 좋아요ID(PK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;- 사용자ID(FK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;- 게시글ID(FK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;- 좋아요 개수&lt;br&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8244&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9AbD27m7tWD324XAIjVa-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-8" value="좋아요" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9AbD27m7tWD324XAIjVa-9" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;- 댓글ID(PK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;- 사용자ID(FK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;- 게시글ID(FK)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;- 댓글내용&lt;br&gt;- 작성시간&lt;br&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8251&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8244&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; font-size: medium;&quot; data-jsonlen=&quot;8243&quot; data-hjsonver=&quot;1.0&quot; id=&quot;hwpEditorBoardContent&quot;&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="9AbD27m7tWD324XAIjVa-8">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
